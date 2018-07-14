@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>HSBC</groupId>
+  <artifactId>HSBC-SampleTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>HSBC-SampleTest</name>
+  
+  	<!-- 项目属性 -->
+	<properties>
+	</properties>
+	
+	<!-- 设定插件仓库 -->
+	<pluginRepositories> 
+	</pluginRepositories> 
+	
+	<!-- 依赖项定义 -->
+	<dependencies>
+		<!-- TEST begin -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- TEST end -->
+	</dependencies>
+	
+	<build>
+	</build>
+	
+	<!-- 开发者信息 -->
+	<developers>  
+		<developer>
+			<id>dik</id>
+			<name>Huangzhihui</name>
+			<email>superfei345@aliyun.com</email>
+			<roles><role>Project lead</role></roles>
+			<timezone>+1</timezone>
+		</developer>
+	</developers>
+</project>
