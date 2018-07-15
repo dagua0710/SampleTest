@@ -22,7 +22,7 @@ public class GameSecond implements Game{
 			else if(i%3 == 0 || MyTools.checkNum3(i)){
 				System.out.println("Fizz");
 			}
-			else if(i%5 == 0 || MyTools.checkNum3(i)){
+			else if(i%5 == 0 || MyTools.checkNum5(i)){
 				System.out.println("Buzz");
 			}
 			else{
