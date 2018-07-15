@@ -2,11 +2,14 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import Tools.MyTools;
+
 public class GameTest {
 
 	@Test
 	public void test() {
-		MyTest.game(1, 100);
+		assertEquals(true, MyTools.checkNum3(3));
+		assertEquals(true, MyTools.checkNum5(5));
 	}
 
 }
