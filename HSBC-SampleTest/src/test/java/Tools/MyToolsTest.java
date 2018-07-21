@@ -22,19 +22,28 @@ public class MyToolsTest {
 	
 	@Test
 	public void testCheckNum3(){
+		System.out.println("@Test:CheckNum3"); 
 		assertEquals(true, MyTools.checkNum3(3));
 		//assertEquals(false, MyTools.checkNum3(3));
 	}
 	
 	@Test
 	public void testCheckNum5(){
+		System.out.println("@Test:CheckNum5"); 
 		//assertEquals(true, MyTools.checkNum5(5));
 		assertEquals(false, MyTools.checkNum5(5));
 	}
 	
 	@Test(timeout = 10)
     public void testTimeout(){
+		System.out.println("@Test(timeout = 10)");   
 		assertEquals(true, MyTools.checkNum3(3));
+    }
+	
+	@Test(expected = ArithmeticException.class)     
+    public void testExpected() {     
+        System.out.println("@Test(expected = Exception.class)");     
+        throw new ArithmeticException();     
     }
 	
 	@After    
