@@ -13,9 +13,8 @@ public class MyToolsTest {
 	@BeforeClass
 	public static void beforeClass(){
 	 	System.out.println("before class..");
-	 }
+	}
 
-	
 	@Before
     public void Before() throws Exception {
 		System.out.println("before");  
